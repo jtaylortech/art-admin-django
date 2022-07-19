@@ -7,11 +7,11 @@ class Location(models.Model):
     state = models.TextField()
     country = models.TextField()
 
-class Artwork(models.model):
+class Artwork(models.Model):
     art_piece = models.TextField()
     year_created = models.TextField()
 
-class Description(models.model):
+class Description(models.Model):
     subject = models.TextField()
     Text = models.TextField()
 
